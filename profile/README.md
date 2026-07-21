@@ -5,106 +5,42 @@
 
 <p align="center">
   <a href="https://mnemo.one">
-    <img src="https://github.com/onemnemo.png" width="88" alt="mnemo logo">
+    <img src="https://github.com/onemnemo.png" width="88" alt="Mnemo logo">
   </a>
 </p>
 
-<h1 align="center">mnemo</h1>
+<h1 align="center">Mnemo</h1>
 
 <p align="center">
-  <strong>Free software, built as real applications.</strong>
+  Open-source applications built to last.
 </p>
 
 <p align="center">
-  <a href="https://mnemo.one">mnemo.one</a>
+  <a href="https://mnemo.one">Website</a>
   ·
-  <a href="https://github.com/onemnemo/mnemo">current project</a>
+  <a href="https://github.com/onemnemo">Projects</a>
   ·
-  <a href="#contributing">contributing</a>
+  <a href="#contributing">Contributing</a>
 </p>
 
 ---
 
-**mnemo** is a small open-source brand for software we would actually want to keep installed: useful, private by default, carefully designed, and not dependent on a subscription to make sense.
+Mnemo is a small open-source software organization building practical applications and the libraries that support them.
 
-The first project is [`mnemo`](https://github.com/onemnemo/mnemo), a study application for notes, learning paths, mindmaps, and the messy work of understanding things.
+Our projects are designed for long-term use and maintenance. We prefer established technologies, modular architecture, readable code, and replacing custom infrastructure when mature alternatives exist.
 
-We are not trying to look bigger than we are. We are students trying to build good software, for other students without all the bloat and paywalls. 
+Our main project is [`mnemo`](https://github.com/onemnemo/mnemo), a cross-platform application for studying, writing, and organizing knowledge. It has been in development for several years and is currently moving from Avalonia to a React interface while retaining its existing C# core and infrastructure.
 
----
-
-## What we care about
-
-| Principle | In plain words |
-|---|---|
-| **Applications first** | Real tools people can open, use, and keep. |
-| **Open source by default** | The code should be worth reading, not just downloading. |
-| **Local where it counts** | Personal data should not need somebody else’s server. |
-| **Calm interfaces** | Software should help you think, not fight for attention. |
-| **Polish is part of the work** | Open source can feel finished. |
-| **Small steps** | Better to ship one clear improvement than promise an ecosystem. |
-
----
-
-## Current work
-
-| Project | What it is | Status |
-|---|---|---|
-| [`mnemo`](https://github.com/onemnemo/mnemo) | Cross-platform study application built with Avalonia and .NET | Active development |
-
-Mnemo is still growing. Some parts work, some parts are rough, and some ideas are being tested in public. That is the point of building open source early: people can see the shape of the thing while it is being made.
-
----
-
-## Things we want to explore
-
-`learning tools` · `knowledge management` · `offline AI` · `local data` · `learning science`
-
-Not everything here will become a product. The rule is simple:
-
-> build something real, keep it open, make it pleasant to use.
-
----
-
-## The kind of software we like
-
-| Less of this | More of this |
-|---|---|
-| “Sign in to continue” | Works before accounts |
-| Demo-first thinking | Product-first craft |
-| Telemetry by default | Trust by default |
-| Giant rewrites | Small, reviewable changes |
-| Clever architecture | Understandable architecture |
-| “We’ll document it later” | Docs as part of the feature |
-
----
+This change removes a large amount of custom UI infrastructure, reduces technical debt, and makes the project more accessible to contributors. It also allows the application to build on mature web libraries instead of maintaining custom implementations for editing, Markdown, LaTeX, theming, localization, and other interface systems.
 
 ## Contributing
 
-Right now, the best contributions are small and concrete:
+Bug reports, documentation improvements, testing, design work, and focused pull requests are welcome.
 
-- reproduce a bug
-- improve a rough edge
-- write down confusing behavior
-- fix docs
-- polish an empty state
-- test one fragile part
-- suggest a feature with a real use case
-
-Start with an issue or a focused pull request. Good open source is built in increments.
-
----
+For larger changes, please open an issue before starting work.
 
 ## Links
 
-| Place | Link |
-|---|---|
-| Website | <https://mnemo.one> |
-| GitHub | <https://github.com/onemnemo> |
-| Current project | <https://github.com/onemnemo/mnemo> |
-
----
-
-<p align="center">
-  <sub>make it useful · make it open · make it yours</sub>
-</p>
+* [Website](https://mnemo.one)
+* [GitHub organization](https://github.com/onemnemo)
+* [Mnemo](https://github.com/onemnemo/mnemo)
